@@ -1,0 +1,22 @@
+.header {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 2px 3px #ccc;
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+  }
+}

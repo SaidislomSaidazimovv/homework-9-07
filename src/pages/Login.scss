@@ -1,0 +1,117 @@
+.login {
+  display: flex;
+  background-color: blueviolet;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 222;
+
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 40px;
+    width: 60%;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 16px;
+    gap: 20px;
+    .login_head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 10px;
+      h1 {
+        font-size: 32px;
+        font-family: Roboto;
+        font-weight: 700;
+        color: #000000;
+      }
+    }
+    .login_body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+
+      .login_info {
+        display: flex;
+        flex-direction: column;
+
+        gap: 20px;
+        .info {
+          display: flex;
+          width: inherit;
+
+          gap: 10px;
+          flex-direction: column;
+          label {
+            display: flex;
+            align-items: start;
+            font-size: 18px;
+            font-family: Roboto;
+            font-weight: 700;
+            color: #000000;
+            cursor: pointer;
+          }
+          input {
+            width: 300px;
+            height: 40px;
+            padding: 8px 0;
+            outline: 0;
+            border: 0;
+            border: 1px solid #483e3e;
+            padding-left: 20px;
+            color: #333;
+            font-weight: 400;
+            border-radius: 6px;
+            font-size: 22px;
+            font-family: Roboto;
+          }
+          .err{
+             color: red;
+             font-size: 16px;
+             font-family: Roboto;
+             font-weight: 400;
+            
+ 
+          }
+        }
+      }
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 200px;
+          height: 40px;
+          outline: 0;
+          border: 0;
+          font-size: 22px;
+          cursor: pointer;
+          transition: all 0.3s ease-in-out;
+          border: 1px solid #090232;
+
+          color: #333;
+          background-color: #fff;
+          border-radius: 6px;
+          font-weight: 600;
+          font-family: Roboto;
+          &:hover {
+            background-color: #090232;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
